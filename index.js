@@ -16,7 +16,7 @@ const replaceVal = (tempVal,orgval) => {
 const server = http.createServer((req,res)=>{
     if (req.url=="/"){
         requests(
-           " http://api.openweathermap.org/data/2.5/weather?q=Pune&appid=f51561b2cb3b7aa9b9239693e4130a25"
+           "add your token"
         )
         .on("data",(chunk)=>{
             const objdata = JSON.parse(chunk);
